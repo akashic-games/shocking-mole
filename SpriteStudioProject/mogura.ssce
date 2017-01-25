@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SpriteStudioCellMap version="1.00.01">
+	<name>mogura</name>
+	<exportPath></exportPath>
+	<generator>SpriteStudio</generator>
+	<packed>0</packed>
+	<imagePath>mogura.png</imagePath>
+	<pixelSize>2048 2048</pixelSize>
+	<overrideTexSettings>0</overrideTexSettings>
+	<wrapMode>clamp</wrapMode>
+	<filterMode>linear</filterMode>
+	<imagePathAtImport></imagePathAtImport>
+	<packInfoFilePath></packInfoFilePath>
+	<texPackSettings>
+		<maxSize>4096 4096</maxSize>
+		<forcePo2>1</forcePo2>
+		<forceSquare>0</forceSquare>
+		<margin>0</margin>
+		<padding>1</padding>
+	</texPackSettings>
+	<cells>
+		<cell>
+			<name>hit3</name>
+			<pos>647 4</pos>
+			<size>425 367</size>
+			<pivot>0.0152939995750785 0.0180060006678104</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>hit2</name>
+			<pos>1638 4</pos>
+			<size>319 387</size>
+			<pivot>0.0329149998724461 -0.0318560004234314</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>hit1</name>
+			<pos>1638 393</pos>
+			<size>251 249</size>
+			<pivot>-0.0537849999964237 -0.0582330003380775</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>title2</name>
+			<pos>1475 1082</pos>
+			<size>327 57</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>title1</name>
+			<pos>327 662</pos>
+			<size>479 113</size>
+			<pivot>0.00282500009052455 -0.0398229993879795</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>hammer</name>
+			<pos>1876 644</pos>
+			<size>155 211</size>
+			<pivot>-0.0290319994091988 -0.438389003276825</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>moleeye2</name>
+			<pos>1996 609</pos>
+			<size>19 19</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>moleeye1</name>
+			<pos>1063 373</pos>
+			<size>9 17</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>molenose1</name>
+			<pos>1340 606</pos>
+			<size>67 23</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>molemouth1</name>
+			<pos>1461 606</pos>
+			<size>21 23</size>
+			<pivot>-0.0238099992275238 0.32608699798584</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>shockingmole</name>
+			<pos>32 1225</pos>
+			<size>572 245</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>mole</name>
+			<pos>153 1469</pos>
+			<size>304 113</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>blood</name>
+			<pos>627 550</pos>
+			<size>17 33</size>
+			<pivot>-0.0294119995087385 0.439393997192383</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>moleleg1</name>
+			<pos>2004 564</pos>
+			<size>21 43</size>
+			<pivot>-0.0238099992275238 0.337208986282349</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>molehand1</name>
+			<pos>2004 525</pos>
+			<size>25 37</size>
+			<pivot>-0.0199999995529652 0.20270299911499</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>molebody1</name>
+			<pos>1249 1017</pos>
+			<size>111 171</size>
+			<pivot>0.00450500007718801 -0.143274992704391</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>ground3</name>
+			<pos>4 1067</pos>
+			<size>641 41</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>ground2</name>
+			<pos>914 507</pos>
+			<size>641 97</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>ground1</name>
+			<pos>4 367</pos>
+			<size>641 181</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>bg1</name>
+			<pos>4 4</pos>
+			<size>641 361</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>go</name>
+			<pos>614 932</pos>
+			<size>283 133</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>ready</name>
+			<pos>1529 979</pos>
+			<size>353 101</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>timeup</name>
+			<pos>1529 876</pos>
+			<size>417 101</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>blood1</name>
+			<pos>808 662</pos>
+			<size>101 101</size>
+			<pivot>-0.262376010417938 0.341583997011185</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>blood2</name>
+			<pos>1948 857</pos>
+			<size>85 99</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>bom</name>
+			<pos>778 1067</pos>
+			<size>101 151</size>
+			<pivot>-0.00494999997317791 -0.182118996977806</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>drill1</name>
+			<pos>1959 182</pos>
+			<size>73 87</size>
+			<pivot>-0.00684900023043156 -0.419539988040924</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>drill2</name>
+			<pos>1959 93</pos>
+			<size>73 87</size>
+			<pivot>-0.00684900023043156 -0.419539988040924</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>drill3</name>
+			<pos>1959 4</pos>
+			<size>73 87</size>
+			<pivot>-0.00684900023043156 -0.419539988040924</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>fire</name>
+			<pos>647 1067</pos>
+			<size>129 121</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>helmet_b</name>
+			<pos>1237 606</pos>
+			<size>101 35</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>helmet_f</name>
+			<pos>1891 566</pos>
+			<size>103 49</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>hibana1</name>
+			<pos>1528 606</pos>
+			<size>19 21</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>hibana2</name>
+			<pos>1409 606</pos>
+			<size>27 27</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>jet</name>
+			<pos>4 1017</pos>
+			<size>87 43</size>
+			<pivot>-0.00574700022116303 0.313953012228012</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>jet1</name>
+			<pos>244 1110</pos>
+			<size>133 87</size>
+			<pivot>-0.5 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>jet2</name>
+			<pos>4 1110</pos>
+			<size>123 103</size>
+			<pivot>-0.5 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>jet3</name>
+			<pos>914 373</pos>
+			<size>147 121</size>
+			<pivot>-0.5 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>jet4</name>
+			<pos>1068 1017</pos>
+			<size>179 137</size>
+			<pivot>-0.5 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>molebody2</name>
+			<pos>1891 393</pos>
+			<size>111 171</size>
+			<pivot>0.00450500007718801 -0.143274992704391</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>molebody3</name>
+			<pos>1362 1017</pos>
+			<size>111 171</size>
+			<pivot>0.00450500007718801 -0.143274992704391</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>moleeye3</name>
+			<pos>1974 379</pos>
+			<size>9 9</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>moleeye4</name>
+			<pos>1985 379</pos>
+			<size>9 9</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>moleeye5</name>
+			<pos>604 595</pos>
+			<size>31 25</size>
+			<pivot>0.24193499982357 0.140000000596046</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>moleeye6</name>
+			<pos>1618 613</pos>
+			<size>17 13</size>
+			<pivot>0.323529005050659 0.0384620018303394</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>moleeye7</name>
+			<pos>1438 606</pos>
+			<size>21 25</size>
+			<pivot>0.119047999382019 -0.180000007152557</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>moleeye8</name>
+			<pos>1484 606</pos>
+			<size>21 21</size>
+			<pivot>0.0714289993047714 -0.119047999382019</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>moleeye9</name>
+			<pos>2017 609</pos>
+			<size>21 13</size>
+			<pivot>0.0714289993047714 0.115385003387928</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>moleeyeback</name>
+			<pos>1618 590</pos>
+			<size>17 21</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>molehand2</name>
+			<pos>2004 486</pos>
+			<size>25 37</size>
+			<pivot>-0.0199999995529652 0.20270299911499</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>moleleg2</name>
+			<pos>604 550</pos>
+			<size>21 43</size>
+			<pivot>-0.0238099992275238 0.337208986282349</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>molemouth2</name>
+			<pos>1959 354</pos>
+			<size>43 23</size>
+			<pivot>-0.0116280000656843 0.413042992353439</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>molemouth3</name>
+			<pos>1557 590</pos>
+			<size>59 31</size>
+			<pivot>0.00847500003874302 0.274194002151489</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>molemouth4</name>
+			<pos>1507 606</pos>
+			<size>19 21</size>
+			<pivot>0.026316000148654 0.5</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>nosetop</name>
+			<pos>1959 379</pos>
+			<size>13 11</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>star</name>
+			<pos>129 1110</pos>
+			<size>113 107</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>thunder</name>
+			<pos>1475 1141</pos>
+			<size>51 109</size>
+			<pivot>0.441175997257233 0.463302999734879</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>nowloading</name>
+			<pos>1237 644</pos>
+			<size>637 87</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>a</name>
+			<pos>970 1101</pos>
+			<size>85 81</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>b_bg_1</name>
+			<pos>899 932</pos>
+			<size>167 167</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>mask</name>
+			<pos>0 372</pos>
+			<size>144 88</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>b_bg_2</name>
+			<pos>1361 4</pos>
+			<size>275 501</size>
+			<pivot>0.00181818183045834 -0.402195602655411</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>b_bg_3</name>
+			<pos>1074 4</pos>
+			<size>285 501</size>
+			<pivot>-0.00175438600126654 -0.414171665906906</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>b_bg_4</name>
+			<pos>881 1101</pos>
+			<size>87 167</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>bg2</name>
+			<pos>914 606</pos>
+			<size>321 181</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>bg3</name>
+			<pos>4 550</pos>
+			<size>321 181</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>black</name>
+			<pos>1623 1141</pos>
+			<size>93 53</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>cloud</name>
+			<pos>327 550</pos>
+			<size>275 101</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>d</name>
+			<pos>1804 1082</pos>
+			<size>77 77</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>dive</name>
+			<pos>2004 437</pos>
+			<size>33 47</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>flash</name>
+			<pos>379 1110</pos>
+			<size>105 105</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>g</name>
+			<pos>1557 507</pos>
+			<size>75 81</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>i</name>
+			<pos>2004 354</pos>
+			<size>35 81</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>l</name>
+			<pos>561 1110</pos>
+			<size>71 79</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>light</name>
+			<pos>647 373</pos>
+			<size>265 287</size>
+			<pivot>0.0132075473666191 0.412891983985901</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>n</name>
+			<pos>486 1110</pos>
+			<size>73 81</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>o</name>
+			<pos>1959 271</pos>
+			<size>77 81</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>smoke</name>
+			<pos>1884 979</pos>
+			<size>157 163</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>ufo_rgb0001</name>
+			<pos>616 789</pos>
+			<size>303 141</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>ufo_rgb0002</name>
+			<pos>1544 733</pos>
+			<size>305 141</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>ufo_rgb0003</name>
+			<pos>1237 733</pos>
+			<size>305 141</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>ufo_rgb0004</name>
+			<pos>1224 876</pos>
+			<size>303 139</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>ufo_rgb0005</name>
+			<pos>311 920</pos>
+			<size>301 139</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>ufo_rgb0006</name>
+			<pos>4 876</pos>
+			<size>305 139</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>ufo_rgb0007</name>
+			<pos>4 733</pos>
+			<size>305 141</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>ufo_rgb0008</name>
+			<pos>311 777</pos>
+			<size>303 141</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>ufo_rgb0009</name>
+			<pos>921 789</pos>
+			<size>301 141</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>w</name>
+			<pos>1068 932</pos>
+			<size>87 81</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>white</name>
+			<pos>1528 1141</pos>
+			<size>93 53</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+	</cells>
+</SpriteStudioCellMap>

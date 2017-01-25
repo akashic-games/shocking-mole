@@ -1,0 +1,728 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 60,
+	"assets": {
+		"mainScene": {
+			"type": "script",
+			"path": "script/mainScene.js",
+			"global": true
+		},
+		"SSManager": {
+			"type": "script",
+			"path": "script/SSManager.js",
+			"global": true
+		},
+		"GameMain": {
+			"type": "script",
+			"path": "script/Scenes/GameMain.js",
+			"global": true
+		},
+		"Fade": {
+			"type": "script",
+			"path": "script/Fade.js",
+			"global": true
+		},
+		"Title": {
+			"type": "script",
+			"path": "script/Scenes/Title.js",
+			"global": true
+		},
+		"mogura": {
+			"type": "image",
+			"width": 2048,
+			"height": 2048,
+			"path": "image/mogura.png"
+		},
+		"mask1": {
+			"type": "image",
+			"width": 640,
+			"height": 360,
+			"path": "image/mask1.png"
+		},
+		"mask2": {
+			"type": "image",
+			"width": 640,
+			"height": 360,
+			"path": "image/mask2.png"
+		},
+		"EnemyManager": {
+			"type": "script",
+			"path": "script/Enemy/EnemyManager.js",
+			"global": true
+		},
+		"EnemySuper": {
+			"type": "script",
+			"path": "script/Enemy/EnemySuper.js",
+			"global": true
+		},
+		"EnemyInformation": {
+			"type": "script",
+			"path": "script/Enemy/EnemyInformation.js",
+			"global": true
+		},
+		"HoleManager": {
+			"type": "script",
+			"path": "script/HoleManager.js",
+			"global": true
+		},
+		"EnemyBornController": {
+			"type": "script",
+			"path": "script/Enemy/EnemyBornController.js",
+			"global": true
+		},
+		"Performance": {
+			"type": "script",
+			"path": "script/Performance.js",
+			"global": true
+		},
+		"GameTime": {
+			"type": "script",
+			"path": "script/GameTime.js",
+			"global": true
+		},
+		"GameTimeUI": {
+			"type": "script",
+			"path": "script/UI/GameTimeUI.js",
+			"global": true
+		},
+		"EnemyController": {
+			"type": "script",
+			"path": "script/Enemy/EnemyController.js",
+			"global": true
+		},
+		"Result": {
+			"type": "script",
+			"path": "script/Scenes/Result.js",
+			"global": true
+		},
+		"finish": {
+			"type": "image",
+			"width": 512,
+			"height": 512,
+			"path": "image/finish.png"
+		},
+		"tatehuda": {
+			"type": "image",
+			"width": 512,
+			"height": 512,
+			"path": "image/tatehuda.png"
+		},
+		"titleBGM": {
+			"type": "audio",
+			"path": "audio/titleBGM",
+			"systemId": "music",
+			"duration": 117513
+		},
+		"decisionSE": {
+			"type": "audio",
+			"path": "audio/decisionSE",
+			"systemId": "sound",
+			"duration": 900
+		},
+		"mainBGM": {
+			"type": "audio",
+			"path": "audio/mainBGM",
+			"systemId": "music",
+			"duration": 72531
+		},
+		"resultBGM": {
+			"type": "audio",
+			"path": "audio/resultBGM",
+			"systemId": "music",
+			"duration": 73549
+		},
+		"Damage": {
+			"type": "script",
+			"path": "script/Enemy/State/Damage.js",
+			"global": true
+		},
+		"Dead": {
+			"type": "script",
+			"path": "script/Enemy/State/Dead.js",
+			"global": true
+		},
+		"EnemyState": {
+			"type": "script",
+			"path": "script/Enemy/State/EnemyState.js",
+			"global": true
+		},
+		"EnemyStateMachine": {
+			"type": "script",
+			"path": "script/Enemy/State/EnemyStateMachine.js",
+			"global": true
+		},
+		"In": {
+			"type": "script",
+			"path": "script/Enemy/State/In.js",
+			"global": true
+		},
+		"None": {
+			"type": "script",
+			"path": "script/Enemy/State/None.js",
+			"global": true
+		},
+		"Out": {
+			"type": "script",
+			"path": "script/Enemy/State/Out.js",
+			"global": true
+		},
+		"Wait": {
+			"type": "script",
+			"path": "script/Enemy/State/Wait.js",
+			"global": true
+		},
+		"an_4_damage": {
+			"type": "text",
+			"path": "text/mole4/an_4_damage.asaan"
+		},
+		"an_4_dead": {
+			"type": "text",
+			"path": "text/mole4/an_4_dead.asaan"
+		},
+		"an_4_in": {
+			"type": "text",
+			"path": "text/mole4/an_4_in.asaan"
+		},
+		"an_4_out": {
+			"type": "text",
+			"path": "text/mole4/an_4_out.asaan"
+		},
+		"an_4_wait": {
+			"type": "text",
+			"path": "text/mole4/an_4_wait.asaan"
+		},
+		"an_4_wait_1": {
+			"type": "text",
+			"path": "text/mole4/an_4_wait_1.asaan"
+		},
+		"an_4_wait_2": {
+			"type": "text",
+			"path": "text/mole4/an_4_wait_2.asaan"
+		},
+		"an_4_wait_3": {
+			"type": "text",
+			"path": "text/mole4/an_4_wait_3.asaan"
+		},
+		"bn_mole4": {
+			"type": "text",
+			"path": "text/mole4/bn_mole4.asabn"
+		},
+		"pj_mole4": {
+			"type": "text",
+			"path": "text/mole4/pj_mole4.asapj"
+		},
+		"sk_4_mogura": {
+			"type": "text",
+			"path": "text/mole4/sk_4_mogura.asask"
+		},
+		"sk_mogura": {
+			"type": "text",
+			"path": "text/sk_mogura.asask"
+		},
+		"an_1_damage": {
+			"type": "text",
+			"path": "text/mole1/an_1_damage.asaan"
+		},
+		"an_1_dead": {
+			"type": "text",
+			"path": "text/mole1/an_1_dead.asaan"
+		},
+		"an_1_in": {
+			"type": "text",
+			"path": "text/mole1/an_1_in.asaan"
+		},
+		"an_1_out": {
+			"type": "text",
+			"path": "text/mole1/an_1_out.asaan"
+		},
+		"an_1_wait": {
+			"type": "text",
+			"path": "text/mole1/an_1_wait.asaan"
+		},
+		"an_1_wait_1": {
+			"type": "text",
+			"path": "text/mole1/an_1_wait_1.asaan"
+		},
+		"an_1_wait_2": {
+			"type": "text",
+			"path": "text/mole1/an_1_wait_2.asaan"
+		},
+		"an_1_wait_3": {
+			"type": "text",
+			"path": "text/mole1/an_1_wait_3.asaan"
+		},
+		"bn_mole1": {
+			"type": "text",
+			"path": "text/mole1/bn_mole1.asabn"
+		},
+		"pj_mole1": {
+			"type": "text",
+			"path": "text/mole1/pj_mole1.asapj"
+		},
+		"sk_1_mogura": {
+			"type": "text",
+			"path": "text/mole1/sk_1_mogura.asask"
+		},
+		"an_2_damage": {
+			"type": "text",
+			"path": "text/mole2/an_2_damage.asaan"
+		},
+		"an_2_dead": {
+			"type": "text",
+			"path": "text/mole2/an_2_dead.asaan"
+		},
+		"an_2_in": {
+			"type": "text",
+			"path": "text/mole2/an_2_in.asaan"
+		},
+		"an_2_out": {
+			"type": "text",
+			"path": "text/mole2/an_2_out.asaan"
+		},
+		"an_2_wait": {
+			"type": "text",
+			"path": "text/mole2/an_2_wait.asaan"
+		},
+		"an_2_wait_1": {
+			"type": "text",
+			"path": "text/mole2/an_2_wait_1.asaan"
+		},
+		"an_2_wait_2": {
+			"type": "text",
+			"path": "text/mole2/an_2_wait_2.asaan"
+		},
+		"an_2_wait_3": {
+			"type": "text",
+			"path": "text/mole2/an_2_wait_3.asaan"
+		},
+		"bn_mole2": {
+			"type": "text",
+			"path": "text/mole2/bn_mole2.asabn"
+		},
+		"pj_mole2": {
+			"type": "text",
+			"path": "text/mole2/pj_mole2.asapj"
+		},
+		"sk_2_mogura": {
+			"type": "text",
+			"path": "text/mole2/sk_2_mogura.asask"
+		},
+		"an_3_damage": {
+			"type": "text",
+			"path": "text/mole3/an_3_damage.asaan"
+		},
+		"an_3_dead": {
+			"type": "text",
+			"path": "text/mole3/an_3_dead.asaan"
+		},
+		"an_3_in": {
+			"type": "text",
+			"path": "text/mole3/an_3_in.asaan"
+		},
+		"an_3_out": {
+			"type": "text",
+			"path": "text/mole3/an_3_out.asaan"
+		},
+		"an_3_wait": {
+			"type": "text",
+			"path": "text/mole3/an_3_wait.asaan"
+		},
+		"an_3_wait_1": {
+			"type": "text",
+			"path": "text/mole3/an_3_wait_1.asaan"
+		},
+		"an_3_wait_2": {
+			"type": "text",
+			"path": "text/mole3/an_3_wait_2.asaan"
+		},
+		"an_3_wait_3": {
+			"type": "text",
+			"path": "text/mole3/an_3_wait_3.asaan"
+		},
+		"bn_mole3": {
+			"type": "text",
+			"path": "text/mole3/bn_mole3.asabn"
+		},
+		"pj_mole3": {
+			"type": "text",
+			"path": "text/mole3/pj_mole3.asapj"
+		},
+		"sk_3_mogura": {
+			"type": "text",
+			"path": "text/mole3/sk_3_mogura.asask"
+		},
+		"an_5_damage": {
+			"type": "text",
+			"path": "text/mole5/an_5_damage.asaan"
+		},
+		"an_5_dead": {
+			"type": "text",
+			"path": "text/mole5/an_5_dead.asaan"
+		},
+		"an_5_in": {
+			"type": "text",
+			"path": "text/mole5/an_5_in.asaan"
+		},
+		"an_5_out": {
+			"type": "text",
+			"path": "text/mole5/an_5_out.asaan"
+		},
+		"an_5_wait": {
+			"type": "text",
+			"path": "text/mole5/an_5_wait.asaan"
+		},
+		"an_5_wait_1": {
+			"type": "text",
+			"path": "text/mole5/an_5_wait_1.asaan"
+		},
+		"an_5_wait_2": {
+			"type": "text",
+			"path": "text/mole5/an_5_wait_2.asaan"
+		},
+		"an_5_wait_3": {
+			"type": "text",
+			"path": "text/mole5/an_5_wait_3.asaan"
+		},
+		"bn_mole5": {
+			"type": "text",
+			"path": "text/mole5/bn_mole5.asabn"
+		},
+		"pj_mole5": {
+			"type": "text",
+			"path": "text/mole5/pj_mole5.asapj"
+		},
+		"sk_5_mogura": {
+			"type": "text",
+			"path": "text/mole5/sk_5_mogura.asask"
+		},
+		"moledamageSE": {
+			"type": "audio",
+			"path": "audio/moledamageSE",
+			"systemId": "sound",
+			"duration": 1046
+		},
+		"moledeadSE": {
+			"type": "audio",
+			"path": "audio/moledeadSE",
+			"systemId": "sound",
+			"duration": 2241
+		},
+		"ObjectMove": {
+			"type": "script",
+			"path": "script/Utility/ObjectMove.js",
+			"global": true
+		},
+		"SoundManager": {
+			"type": "script",
+			"path": "script/SoundManager.js",
+			"global": true
+		},
+		"Mole4": {
+			"type": "script",
+			"path": "script/Enemy/Mole4.js",
+			"global": true
+		},
+		"an_finish": {
+			"type": "text",
+			"path": "text/finish/an_finish.asaan"
+		},
+		"bn_finish": {
+			"type": "text",
+			"path": "text/finish/bn_finish.asabn"
+		},
+		"pj_finish": {
+			"type": "text",
+			"path": "text/finish/pj_finish.asapj"
+		},
+		"sk_finish": {
+			"type": "text",
+			"path": "text/finish/sk_finish.asask"
+		},
+		"an_hit": {
+			"type": "text",
+			"path": "text/hit/an_hit.asaan"
+		},
+		"bn_hit": {
+			"type": "text",
+			"path": "text/hit/bn_hit.asabn"
+		},
+		"pj_hit": {
+			"type": "text",
+			"path": "text/hit/pj_hit.asapj"
+		},
+		"an_loading": {
+			"type": "text",
+			"path": "text/loading/an_loading.asaan"
+		},
+		"bn_nowloading": {
+			"type": "text",
+			"path": "text/loading/bn_nowloading.asabn"
+		},
+		"pj_nowloading": {
+			"type": "text",
+			"path": "text/loading/pj_nowloading.asapj"
+		},
+		"an_mainbg": {
+			"type": "text",
+			"path": "text/mainbg/an_mainbg.asaan"
+		},
+		"bn_mainbg": {
+			"type": "text",
+			"path": "text/mainbg/bn_mainbg.asabn"
+		},
+		"pj_gamemainbg": {
+			"type": "text",
+			"path": "text/mainbg/pj_gamemainbg.asapj"
+		},
+		"an_readygo": {
+			"type": "text",
+			"path": "text/readygo/an_readygo.asaan"
+		},
+		"bn_readygo": {
+			"type": "text",
+			"path": "text/readygo/bn_readygo.asabn"
+		},
+		"pj_readygo": {
+			"type": "text",
+			"path": "text/readygo/pj_readygo.asapj"
+		},
+		"an_title": {
+			"type": "text",
+			"path": "text/titlebg/an_title.asaan"
+		},
+		"bn_title": {
+			"type": "text",
+			"path": "text/titlebg/bn_title.asabn"
+		},
+		"pj_titlebg": {
+			"type": "text",
+			"path": "text/titlebg/pj_titlebg.asapj"
+		},
+		"an_scope_shot": {
+			"type": "text",
+			"path": "text/scope/an_scope_shot.asaan"
+		},
+		"an_scope_wait": {
+			"type": "text",
+			"path": "text/scope/an_scope_wait.asaan"
+		},
+		"bn_scope": {
+			"type": "text",
+			"path": "text/scope/bn_scope.asabn"
+		},
+		"pj_Scope": {
+			"type": "text",
+			"path": "text/scope/pj_Scope.asapj"
+		},
+		"gun": {
+			"type": "audio",
+			"path": "audio/gun",
+			"systemId": "sound",
+			"duration": 1291
+		},
+		"Vector2": {
+			"type": "script",
+			"path": "script/Utility/Vector2.js",
+			"global": true
+		},
+		"earth_danger": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/earth_danger.png"
+		},
+		"earth_normal": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/earth_normal.png"
+		},
+		"Earths": {
+			"type": "script",
+			"path": "script/UI/Earths.js",
+			"global": true
+		},
+		"attackSE": {
+			"type": "audio",
+			"path": "audio/attackSE",
+			"systemId": "sound",
+			"duration": 517
+		},
+		"ShockingMoleLoadingScene": {
+			"type": "script",
+			"path": "script/ShockingMoleLoadingScene.js",
+			"global": true
+		},
+		"numbers": {
+			"type": "image",
+			"width": 320,
+			"height": 64,
+			"path": "image/numbers.png"
+		},
+		"NumberUI": {
+			"type": "script",
+			"path": "script/UI/NumberUI.js",
+			"global": true
+		},
+		"NumberOperator": {
+			"type": "script",
+			"path": "script/Utility/NumberOperator.js",
+			"global": true
+		},
+		"uibg1": {
+			"type": "image",
+			"width": 640,
+			"height": 72,
+			"path": "image/uibg1.png"
+		},
+		"lefttext": {
+			"type": "image",
+			"width": 320,
+			"height": 64,
+			"path": "image/lefttext.png"
+		},
+		"number": {
+			"type": "image",
+			"width": 440,
+			"height": 56,
+			"path": "image/number.png"
+		},
+		"an_wait": {
+			"type": "text",
+			"path": "text/tatehuda/an_wait.asaan"
+		},
+		"bn_tatehuda": {
+			"type": "text",
+			"path": "text/tatehuda/bn_tatehuda.asabn"
+		},
+		"pj_tatehuda": {
+			"type": "text",
+			"path": "text/tatehuda/pj_tatehuda.asapj"
+		},
+		"sk_tatehuda": {
+			"type": "text",
+			"path": "text/tatehuda/sk_tatehuda.asask"
+		},
+		"ResultUI": {
+			"type": "script",
+			"path": "script/UI/ResultUI.js",
+			"global": true
+		},
+		"result_texts": {
+			"type": "image",
+			"width": 300,
+			"height": 202,
+			"path": "image/result_texts.png"
+		},
+		"RBtexts": {
+			"type": "image",
+			"width": 512,
+			"height": 128,
+			"path": "image/RBtexts.png"
+		},
+		"MainUIManager": {
+			"type": "script",
+			"path": "script/UI/MainUIManager.js",
+			"global": true
+		},
+		"an_over": {
+			"type": "text",
+			"path": "text/gameover/an_over.asaan"
+		},
+		"bn_gameover": {
+			"type": "text",
+			"path": "text/gameover/bn_gameover.asabn"
+		},
+		"pj_gameover": {
+			"type": "text",
+			"path": "text/gameover/pj_gameover.asapj"
+		},
+		"sk_gameover": {
+			"type": "text",
+			"path": "text/gameover/sk_gameover.asask"
+		},
+		"gameover": {
+			"type": "image",
+			"width": 1024,
+			"height": 512,
+			"path": "image/gameover.png"
+		},
+		"uimask1": {
+			"type": "image",
+			"width": 260,
+			"height": 33,
+			"path": "image/uimask1.png"
+		},
+		"reporttexts": {
+			"type": "image",
+			"width": 400,
+			"height": 360,
+			"path": "image/reporttexts.png"
+		},
+		"ReportTextController": {
+			"type": "script",
+			"path": "script/UI/ReportTextController.js",
+			"global": true
+		},
+		"an_mainbg3": {
+			"type": "text",
+			"path": "text/mainbg/an_mainbg3.asaan"
+		},
+		"an_mainbg3_out": {
+			"type": "text",
+			"path": "text/mainbg/an_mainbg3_out.asaan"
+		},
+		"an_mainbg3_end": {
+			"type": "text",
+			"path": "text/mainbg/an_mainbg3_end.asaan"
+		},
+		"an_mainbg_2": {
+			"type": "text",
+			"path": "text/mainbg/an_mainbg_2.asaan"
+		},
+		"an_mainbg_in": {
+			"type": "text",
+			"path": "text/mainbg/an_mainbg_in.asaan"
+		},
+		"GameMainBG": {
+			"type": "script",
+			"path": "script/GameMainBG.js",
+			"global": true
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-animation/lib/AABB.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Actor.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/AnimationHandlerParams.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/AnimeParams.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Attachment.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/AttrId.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Bone.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/BoneCellCollider.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/BoneSet.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/BoxVolume.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Cell.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/CellAttachment.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/CellAttachmentCollider.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/CircleCollider.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/CircleVolume.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Collider.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Container.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/FinalizedCell.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Posture.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Resource.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Size2.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Skeleton.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Skin.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/Vector2.js",
+		"node_modules/@akashic-extension/akashic-animation/lib/index.js",
+		"node_modules/@akashic-extension/akashic-animation/package.json",
+		"node_modules/@akashic-extension/akashic-timeline/lib/ActionType.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Easing.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Timeline.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Tween.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/index.js",
+		"node_modules/@akashic-extension/akashic-timeline/package.json"
+	]
+}
