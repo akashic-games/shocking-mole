@@ -1,0 +1,5 @@
+AtomEditor
+AtomEditorPackage
+「atom-beautify0.29.10, atom-typescript10.1.6, linter-tslint0.11.1」
+npm 1.10.6
+node v5.7.1
