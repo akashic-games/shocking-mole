@@ -10,7 +10,7 @@ var ShockingMoleLoadingScene = (function (_super) {
     function ShockingMoleLoadingScene(param) {
         _super.call(this, { game: param.game, assetIds: [].concat(["mogura"], "pj_mole1", ["an_1_in", "an_1_out", "an_1_damage", "an_1_dead", "an_1_wait_1", "an_1_wait_2", "an_1_wait_3", "an_1_wait"], ["bn_mole1"], ["sk_1_mogura"], ["pj_nowloading"], ["an_loading"], ["bn_nowloading"], ["sk_mogura"]) });
         this.loaded.handle(this, this._onLoaded);
-        this._load();
+        this.targetReset.handle(this, this._onLoaded);
         this.update.handle(this, this.Update);
     }
     // ロード
