@@ -9,12 +9,11 @@ var ShockingMoleLoadingScene = (function (_super) {
     __extends(ShockingMoleLoadingScene, _super);
     function ShockingMoleLoadingScene(param) {
         _super.call(this, { game: param.game, assetIds: [].concat(["mogura"], "pj_mole1", ["an_1_in", "an_1_out", "an_1_damage", "an_1_dead", "an_1_wait_1", "an_1_wait_2", "an_1_wait_3", "an_1_wait"], ["bn_mole1"], ["sk_1_mogura"], ["pj_nowloading"], ["an_loading"], ["bn_nowloading"], ["sk_mogura"]) });
-        this.loaded.handle(this, this._onLoaded);
-        this._load();
+        this.targetReset.handle(this, this._onTargetReset);
         this.update.handle(this, this.Update);
     }
     // ロード
-    ShockingMoleLoadingScene.prototype._onLoaded = function () {
+    ShockingMoleLoadingScene.prototype._onTargetReset = function () {
         var bg = new g.FilledRect({ scene: this, width: g.game.width, height: g.game.height, cssColor: "black" });
         this.append(bg);
         this.loadingMole = new SSManager(["mogura"], "pj_mole1", ["an_1_in", "an_1_out", "an_1_damage", "an_1_dead", "an_1_wait_1", "an_1_wait_2", "an_1_wait_3", "an_1_wait"], ["bn_mole1"], ["sk_1_mogura"], ["mogura"], "mole1", 145, 185);
