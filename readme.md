@@ -64,3 +64,10 @@ Copyright(C) Web Technology Corp.
 
 * SpriteStudio, Web Technologyは、株式会社ウェブテクノロジの登録商標です。
 * その他の商品名は各社の登録商標または商標です。
+
+## アツマール対応について
+
+`npm run export` をした後に、 `index.html` から `<script src="./js/game.json.js"></script>` より下、 `<script src="./js/sandbox.js"></script>` より上の行をコピーし、 `html/index.html` の該当箇所を手動で書き換える必要があります。
+
+その後、htmlディレクトリをzipで固めてアップロードすれば、アツマールにアップロードできます。
+
