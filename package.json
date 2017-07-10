@@ -4,17 +4,20 @@
   "version": "0.0.0",
   "description": "A game using Akashic Engine and Akashic Animation",
   "scripts": {
-    "start": "akashic-sandbox .",
+    "start": "akashic-sandbox ./game",
     "build": "tsc -p ./",
+    "export": "rm -rf html && cd game && akashic export html --strip --output ../html && cd .. && akashic-atsumaru-template",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Web Technology Corp.",
   "license": "MIT",
   "dependencies": {
     "@akashic-extension/akashic-animation": "~2.6.1",
-    "@akashic-extension/akashic-timeline": "~0.4.2"
+    "@akashic-extension/akashic-timeline": "~0.4.2",
+    "akashic-atsumaru-template": "^0.1.4"
   },
   "devDependencies": {
+    "@akashic/akashic-cli": "^1.1.4",
     "@akashic/akashic-engine": "~1.10.0",
     "@akashic/akashic-sandbox": "~0.10.1",
     "typescript": "^1.8.10"

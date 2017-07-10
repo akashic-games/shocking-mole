@@ -1,0 +1,1 @@
+window.gLocalAssetContainer["pj_Scope"] = "%7B%22version%22%3A%222.0.0%22%2C%22contents%22%3A%7B%22boneSetFileNames%22%3A%5B%22bn_scope.asabn%22%5D%2C%22skinFileNames%22%3A%5B%22sk_mogura.asask%22%5D%2C%22animationFileNames%22%3A%5B%22an_scope_shot.asaan%22%2C%22an_scope_wait.asaan%22%5D%7D%7D"

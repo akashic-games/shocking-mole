@@ -1,0 +1,16 @@
+{
+  "name": "shocking-mole",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A game using Akashic Engine and Akashic Animation",
+  "author": "Web Technology Corp.",
+  "license": "MIT",
+  "dependencies": {
+    "@akashic-extension/akashic-animation": "~2.6.1",
+    "@akashic-extension/akashic-timeline": "~0.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akashic-games/shocking-mole.git"
+  }
+}
