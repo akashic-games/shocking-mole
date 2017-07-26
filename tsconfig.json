@@ -15,11 +15,13 @@
     "filesGlob": [
         "./src/**/*.ts",
         "./node_modules/@akashic/akashic-engine/lib/main.d.ts",
-        "./node_modules/@akashic-extension/akashic-animation/lib/@akashic-extension/akashic-animation.d.ts"
+        "./node_modules/@akashic-extension/akashic-animation/lib/@akashic-extension/akashic-animation.d.ts",
+        "node_modules/atsumaru-gameapi/build/index.d.ts"
     ],
     "files": [
         "src/mainScene.ts",
         "node_modules/@akashic/akashic-engine/lib/main.d.ts",
-        "node_modules/@akashic-extension/akashic-animation/lib/@akashic-extension/akashic-animation.d.ts"
+        "node_modules/@akashic-extension/akashic-animation/lib/@akashic-extension/akashic-animation.d.ts",
+        "node_modules/atsumaru-gameapi/build/index.d.ts"
     ]
 }

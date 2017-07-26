@@ -36,6 +36,13 @@ export = function() {
         g.game.vars["score"] = 0;       // スコアに0を登録しておく
         g.game.vars["ruindegree"] = 0;  // 地球滅亡度に0を登録しておく
         status = MainStatus.StartReady; // 最初はreadygoアニメーションから
+
+    });
+
+    scene.stateChanged.handle(function() {
+        if (scene.state === g.SceneState.Active && scene.game.external.atsumaru) {
+            (<AtsumaruGameAPI>scene.game.external.atsumaru).comment.resetAndChangeScene("GameMain");
+        }
     });
 
     scene.update.handle(function() {
@@ -145,6 +152,10 @@ export = function() {
         if (!mainBG.bg.AnimeEnd()) return;
         fade.StartFadeOut();
         status = MainStatus.GameOver;
+
+        if (scene.game.external.atsumaru) {
+            (<AtsumaruGameAPI>scene.game.external.atsumaru).comment.pushContextFactor("GameOver");
+        }
     }
 
     // ゲームオーバーステータスの更新

@@ -15,6 +15,12 @@ export = function() {
         Init();
     });
 
+    scene.stateChanged.handle(function() {
+        if (scene.state === g.SceneState.Active && scene.game.external.atsumaru) {
+            (<AtsumaruGameAPI>scene.game.external.atsumaru).comment.resetAndChangeScene("Title");
+        }
+    });
+
     scene.update.handle(function() {
         fade.Update();
         tb.Update();
