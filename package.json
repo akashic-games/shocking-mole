@@ -7,7 +7,6 @@
     "start": "akashic-sandbox ./game",
     "build": "tsc -p ./",
     "export": "rm -rf html && cd game && akashic export html --magnify --strip --output ../html && cd .. && npm run atsumarize",
-    "export:plane": "rm -rf html_plane && cd game && akashic export html --magnify --strip --output ../html_plane",
     "atsumarize": "akashic-atsumaru-template && cp atsumarize/index.html html && cp atsumarize/sandbox.js html/js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
