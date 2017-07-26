@@ -3,6 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>game</title>
+
+<!-- コピペ -->
+<script src="./js/option.js"></script>
+
 <script src="./js/akashic-engine.strip.js"></script>
 <script src="./js/game-driver.strip.js"></script>
 <script src="./js/pdi-browser.strip.js"></script>
@@ -13,6 +17,7 @@
 <script src="./js/logger.js"></script>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
+<!-- コピペ -->
 <script src="./js/game.json.js"></script>
 <script src="./js/assets/script/mainScene.js"></script>
 <script src="./js/assets/script/SSManager.js"></script>
@@ -37,6 +42,18 @@
 <script src="./js/assets/script/Enemy/State/None.js"></script>
 <script src="./js/assets/script/Enemy/State/Out.js"></script>
 <script src="./js/assets/script/Enemy/State/Wait.js"></script>
+<script src="./js/assets/script/Utility/ObjectMove.js"></script>
+<script src="./js/assets/script/SoundManager.js"></script>
+<script src="./js/assets/script/Enemy/Mole4.js"></script>
+<script src="./js/assets/script/Utility/Vector2.js"></script>
+<script src="./js/assets/script/UI/Earths.js"></script>
+<script src="./js/assets/script/ShockingMoleLoadingScene.js"></script>
+<script src="./js/assets/script/UI/NumberUI.js"></script>
+<script src="./js/assets/script/Utility/NumberOperator.js"></script>
+<script src="./js/assets/script/UI/ResultUI.js"></script>
+<script src="./js/assets/script/UI/MainUIManager.js"></script>
+<script src="./js/assets/script/UI/ReportTextController.js"></script>
+<script src="./js/assets/script/GameMainBG.js"></script>
 <script src="./js/assets/text/mole4/an_4_damage.json.js"></script>
 <script src="./js/assets/text/mole4/an_4_dead.json.js"></script>
 <script src="./js/assets/text/mole4/an_4_in.json.js"></script>
@@ -93,9 +110,6 @@
 <script src="./js/assets/text/mole5/bn_mole5.json.js"></script>
 <script src="./js/assets/text/mole5/pj_mole5.json.js"></script>
 <script src="./js/assets/text/mole5/sk_5_mogura.json.js"></script>
-<script src="./js/assets/script/Utility/ObjectMove.js"></script>
-<script src="./js/assets/script/SoundManager.js"></script>
-<script src="./js/assets/script/Enemy/Mole4.js"></script>
 <script src="./js/assets/text/finish/an_finish.json.js"></script>
 <script src="./js/assets/text/finish/bn_finish.json.js"></script>
 <script src="./js/assets/text/finish/pj_finish.json.js"></script>
@@ -119,28 +133,19 @@
 <script src="./js/assets/text/scope/an_scope_wait.json.js"></script>
 <script src="./js/assets/text/scope/bn_scope.json.js"></script>
 <script src="./js/assets/text/scope/pj_Scope.json.js"></script>
-<script src="./js/assets/script/Utility/Vector2.js"></script>
-<script src="./js/assets/script/UI/Earths.js"></script>
-<script src="./js/assets/script/ShockingMoleLoadingScene.js"></script>
-<script src="./js/assets/script/UI/NumberUI.js"></script>
-<script src="./js/assets/script/Utility/NumberOperator.js"></script>
 <script src="./js/assets/text/tatehuda/an_wait.json.js"></script>
 <script src="./js/assets/text/tatehuda/bn_tatehuda.json.js"></script>
 <script src="./js/assets/text/tatehuda/pj_tatehuda.json.js"></script>
 <script src="./js/assets/text/tatehuda/sk_tatehuda.json.js"></script>
-<script src="./js/assets/script/UI/ResultUI.js"></script>
-<script src="./js/assets/script/UI/MainUIManager.js"></script>
 <script src="./js/assets/text/gameover/an_over.json.js"></script>
 <script src="./js/assets/text/gameover/bn_gameover.json.js"></script>
 <script src="./js/assets/text/gameover/pj_gameover.json.js"></script>
 <script src="./js/assets/text/gameover/sk_gameover.json.js"></script>
-<script src="./js/assets/script/UI/ReportTextController.js"></script>
 <script src="./js/assets/text/mainbg/an_mainbg3.json.js"></script>
 <script src="./js/assets/text/mainbg/an_mainbg3_out.json.js"></script>
 <script src="./js/assets/text/mainbg/an_mainbg3_end.json.js"></script>
 <script src="./js/assets/text/mainbg/an_mainbg_2.json.js"></script>
 <script src="./js/assets/text/mainbg/an_mainbg_in.json.js"></script>
-<script src="./js/assets/script/GameMainBG.js"></script>
 <script src="./globalScripts/node_modules/@akashic-extension/akashic-animation/lib/AABB.js"></script>
 <script src="./globalScripts/node_modules/@akashic-extension/akashic-animation/lib/Actor.js"></script>
 <script src="./globalScripts/node_modules/@akashic-extension/akashic-animation/lib/AnimationHandlerParams.js"></script>
@@ -174,9 +179,27 @@
 <script src="./globalScripts/node_modules/@akashic-extension/akashic-timeline/lib/index.js"></script>
 <script src="./globalScripts/node_modules/@akashic-extension/akashic-timeline/package.json.js"></script>
 <script src="./js/sandbox.js"></script>
+
+<!-- もともと
+<script src="./js/game.json.js"></script>
+<script src="./js/assets/script/main.js"></script>
+<script src="./js/assets/script/Spinner.js"></script>
+<script src="./js/assets/script/BorderRect.js"></script>
+<script src="./js/assets/script/MineSweeper.js"></script>
+<script src="./js/assets/script/GameScene.js"></script>
+<script src="./js/assets/script/Cell.js"></script>
+<script src="./js/assets/script/ResultScene.js"></script>
+<script src="./js/assets/script/TitleScene.js"></script>
+<script src="./js/assets/text/glyph.json.js"></script>
+<script src="./js/assets/text/stage_glyph.json.js"></script>
+<script src="./js/assets/script/Button.js"></script>
+<script src="./js/sandbox.js"></script>
+-->
+
 <script src="./js/atsumaru.js"></script>
 <script src="./page/jquery-1.11.3.min.js"></script>
 <script src="./page/animation.js"></script>
+
 </head>
 <body>
 <div id="container">

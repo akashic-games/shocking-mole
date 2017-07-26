@@ -47,4 +47,5 @@ var Out = (function () {
 }());
 module.exports = Out;
 
-})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);}
+})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);
+}

@@ -24,4 +24,5 @@ var None = (function () {
 }());
 module.exports = None;
 
-})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);}
+})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);
+}

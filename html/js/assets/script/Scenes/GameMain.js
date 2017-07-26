@@ -36,6 +36,11 @@ module.exports = function () {
         g.game.vars["ruindegree"] = 0; // 地球滅亡度に0を登録しておく
         status = MainStatus.StartReady; // 最初はreadygoアニメーションから
     });
+    scene.stateChanged.handle(function () {
+        if (scene.state === g.SceneState.Active && scene.game.external.atsumaru) {
+            scene.game.external.atsumaru.comment.resetAndChangeScene("GameMain");
+        }
+    });
     scene.update.handle(function () {
         fade.Update();
         mainBG.Update();
@@ -143,6 +148,9 @@ module.exports = function () {
             return;
         fade.StartFadeOut();
         status = MainStatus.GameOver;
+        if (scene.game.external.atsumaru) {
+            scene.game.external.atsumaru.comment.pushContextFactor("GameOver");
+        }
     }
     // ゲームオーバーステータスの更新
     function GameOver() {
@@ -154,4 +162,5 @@ module.exports = function () {
     return scene;
 };
 
-})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);}
+})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);
+}

@@ -10,4 +10,5 @@ var Vector2 = (function () {
 }());
 module.exports = Vector2;
 
-})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);}
+})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);
+}

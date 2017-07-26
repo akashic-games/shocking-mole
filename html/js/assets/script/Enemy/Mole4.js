@@ -1,10 +1,15 @@
 window.gLocalAssetContainer["Mole4"] = function(g) { (function(exports, require, module, __filename, __dirname) {
 "use strict";
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var EnemySuper = require("./EnemySuper");
 var EnemyStateMachine = require("./State/EnemyStateMachine");
 // State
@@ -16,7 +21,7 @@ var Dead = require("./State/Dead");
 var Mole4 = (function (_super) {
     __extends(Mole4, _super);
     function Mole4() {
-        _super.call(this, 2, "4");
+        return _super.call(this, 2, "4") || this;
     }
     // 初期化
     Mole4.prototype.Init = function (borncontroller) {
@@ -33,4 +38,5 @@ var Mole4 = (function (_super) {
 }(EnemySuper));
 module.exports = Mole4;
 
-})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);}
+})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);
+}

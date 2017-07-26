@@ -1,17 +1,23 @@
 window.gLocalAssetContainer["ShockingMoleLoadingScene"] = function(g) { (function(exports, require, module, __filename, __dirname) {
 "use strict";
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var SSManager = require("./SSManager");
 var ShockingMoleLoadingScene = (function (_super) {
     __extends(ShockingMoleLoadingScene, _super);
     function ShockingMoleLoadingScene(param) {
-        _super.call(this, { game: param.game, assetIds: [].concat(["mogura"], "pj_mole1", ["an_1_in", "an_1_out", "an_1_damage", "an_1_dead", "an_1_wait_1", "an_1_wait_2", "an_1_wait_3", "an_1_wait"], ["bn_mole1"], ["sk_1_mogura"], ["pj_nowloading"], ["an_loading"], ["bn_nowloading"], ["sk_mogura"]) });
-        this.targetReset.handle(this, this._onTargetReset);
-        this.update.handle(this, this.Update);
+        var _this = _super.call(this, { game: param.game, assetIds: [].concat(["mogura"], "pj_mole1", ["an_1_in", "an_1_out", "an_1_damage", "an_1_dead", "an_1_wait_1", "an_1_wait_2", "an_1_wait_3", "an_1_wait"], ["bn_mole1"], ["sk_1_mogura"], ["pj_nowloading"], ["an_loading"], ["bn_nowloading"], ["sk_mogura"]) }) || this;
+        _this.targetReset.handle(_this, _this._onTargetReset);
+        _this.update.handle(_this, _this.Update);
+        return _this;
     }
     // ロード
     ShockingMoleLoadingScene.prototype._onTargetReset = function () {
@@ -33,4 +39,5 @@ var ShockingMoleLoadingScene = (function (_super) {
 ;
 module.exports = ShockingMoleLoadingScene;
 
-})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);}
+})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);
+}

@@ -14,6 +14,11 @@ module.exports = function () {
         tb.SetPosition(320, 180);
         Init();
     });
+    scene.stateChanged.handle(function () {
+        if (scene.state === g.SceneState.Active && scene.game.external.atsumaru) {
+            scene.game.external.atsumaru.comment.resetAndChangeScene("Title");
+        }
+    });
     scene.update.handle(function () {
         fade.Update();
         tb.Update();
@@ -57,4 +62,5 @@ module.exports = function () {
     return scene;
 };
 
-})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);}
+})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);
+}

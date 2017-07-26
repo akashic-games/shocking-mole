@@ -61,4 +61,5 @@ var Performance = (function () {
 }());
 module.exports = Performance;
 
-})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);}
+})(g.module.exports, g.module.require, g.module, g.filename, g.dirname);
+}
