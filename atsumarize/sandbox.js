@@ -60,7 +60,18 @@ window.addEventListener("load", function() {
 		});
 
 		driver.gameCreatedTrigger.handle(function () {
-			if (window.optionProps.magnify) pf.fitToWindow(true);
+			function fit() {
+				pf.containerController.fitToSize({
+					width: window.parent.innerWidth,
+					height: window.parent.innerHeight
+				}, true);
+			}
+			if (window.optionProps.magnify) {
+				fit();
+				window.addEventListener("orientationchange", function () {
+					setTimeout(fit, 500);
+				});
+			}
 		});
 
 		driver.initialize({
