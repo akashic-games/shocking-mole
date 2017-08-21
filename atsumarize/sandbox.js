@@ -32,7 +32,20 @@ window.addEventListener("load", function() {
 		var pf = new pdiBrowser.Platform({
 			amflow: amflowClient,
 			containerView: document.getElementById("container"),
-			audioPlugins: [pdiBrowser.HTMLAudioPlugin],
+			audioPlugins: [pdiBrowser.WebAudioPlugin],
+			disablePreventDefault: true
+		});
+
+		// iOS Safari の音声用ワークアラウンド
+		var audioTouchInitialized = false;
+		document.addEventListener("touchstart", function () {
+			if (audioTouchInitialized) return;
+			audioTouchInitialized = true;
+			var g = require("@akashic/akashic-engine");
+			var p = new pdiBrowser.WebAudioPlugin();
+			var dummyAudioSystem = new g.AudioSystem("dummy", { _audioSystemManager: new g.AudioSystemManager({}) });
+			var ctx = p.createPlayer(dummyAudioSystem)._audioContext; // ダミーのコードでとにかくAudioContextを抜いてくる
+			ctx.createBufferSource().start(0); // 本題
 		});
 
 		pf.loadGameConfiguration = function(url, callback) {
@@ -60,7 +73,18 @@ window.addEventListener("load", function() {
 		});
 
 		driver.gameCreatedTrigger.handle(function () {
-			if (window.optionProps.magnify) pf.fitToWindow(true);
+			function fit() {
+				pf.containerController.fitToSize({
+					width: window.parent.innerWidth,
+					height: window.parent.innerHeight
+				}, true);
+			}
+			if (window.optionProps.magnify) {
+				fit();
+				window.addEventListener("orientationchange", function () {
+					setTimeout(fit, 500);
+				});
+			}
 		});
 
 		driver.initialize({
