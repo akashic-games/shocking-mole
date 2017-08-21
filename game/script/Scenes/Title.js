@@ -13,6 +13,11 @@ module.exports = function () {
         tb.SetPosition(320, 180);
         Init();
     });
+    scene.stateChanged.handle(function () {
+        if (scene.state === g.SceneState.Active && scene.game.external.atsumaru) {
+            scene.game.external.atsumaru.comment.resetAndChangeScene("Title");
+        }
+    });
     scene.update.handle(function () {
         fade.Update();
         tb.Update();

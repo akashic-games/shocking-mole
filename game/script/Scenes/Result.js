@@ -16,6 +16,11 @@ module.exports = function () {
         g.game.vars["SoundManager"].Initialize(scene);
         g.game.vars["SoundManager"].Play("resultBGM");
     });
+    scene.stateChanged.handle(function () {
+        if (scene.state === g.SceneState.Active && scene.game.external.atsumaru) {
+            scene.game.external.atsumaru.comment.resetAndChangeScene("Result");
+        }
+    });
     scene.update.handle(function () {
         bg.Update();
         fade.Update();
